@@ -1,0 +1,19 @@
+
+
+.header-block{
+    color : black;
+    height: 50px;
+    margin:15px  0;
+    background-color: blue;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+      
+
+}
+
+.header-content{
+    margin-right: 15px;
+    background-color: red;
+    
+}

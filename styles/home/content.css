@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(54, 69, 79);
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.main-content{
+    
+    margin-left: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+.left-content {
+    color:white;
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.left-content #abt-me{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.left-content p {
+    margin: 4px 4px;
+    font:400; 
+    font-size: 40px; 
+    
+}
+
+
+.download-button{
+    background-color: green;
+    height:30px;
+    margin-top:50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    border-radius: 12px;
+    
+
+}
+
+.right-content{
+    background-color: lightblue;
+  
+}
