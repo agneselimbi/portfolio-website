@@ -1,7 +1,9 @@
 body{
     background-color: rgb(54, 69, 79);
-    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  Poppins, Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .main-content{
@@ -9,6 +11,8 @@ body{
     margin-left: 50px;
     display:flex;
     flex-direction: row;
+    /*background-color: blueviolet;*/
+    margin-left: 80px;
 }
 
 .left-content {
@@ -20,31 +24,42 @@ body{
 }
 
 .left-content #abt-me{
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
 }
 
 .left-content p {
-    margin: 4px 4px;
+    margin: 0px 4px;
     font:400; 
-    font-size: 40px; 
-    
+    font-size: 50px;    
 }
 
 
-.download-button{
-    background-color: green;
-    height:30px;
-    margin-top:50px;
+.download-btn-container{
+    
+    height:50px;
+    width: 150px;
+    margin-top:80px;
     margin-left: 25%;
     margin-right: 25%;
-    justify-content: center;
-    border-radius: 12px;
+    align-content: center;
     
+    border-color: rgb(94, 91, 91);
+    border-radius: 15px;
+    border-width: 1.5px;
+    border-style: solid;
+    font :400;
+}
 
+.download-btn-container .download-button{
+    border: none;
+    background-color: rgb(54, 69, 79);
+    color:white;
+    font: Poppins;
 }
 
 .right-content{
     background-color: lightblue;
+
   
 }
